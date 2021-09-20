@@ -1,0 +1,11 @@
+.DesktopContainer {
+  display: flex;
+  height: 90%;
+  flex-grow: 1;
+}
+
+.DesktopData {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
