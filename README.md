@@ -1,6 +1,6 @@
 # Link
 
-https://ravn-challenge-v2-ysabelc.netlify.app/personInfo/cGVvcGxlOjE=
+https://ravn-challenge-v2-ysabelc.netlify.app/
 
 # Libraries
 
