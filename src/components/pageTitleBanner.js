@@ -6,7 +6,7 @@ import clsx from "clsx";
 
 export default function PageTitleBanner({mobileBanner}) {
     const isDesktopOrLaptop = useIsDesktopOrLaptop()
-    if ((mobileBanner !== "People of Star Wars" || mobileBanner !== "People") && !isDesktopOrLaptop) {
+    if ((mobileBanner !== "People of Star Wars" && mobileBanner !== "People") && !isDesktopOrLaptop) {
         return (
             <nav className={clsx(styles.TopBanner, styles.TopBannerFixAligmentForMobile, styles.TopBannerForMobile)}>
                 <a href="/">
