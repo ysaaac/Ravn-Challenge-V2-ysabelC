@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import styles from "./personInfo.module.scss";
 import { gql, useQuery } from "@apollo/client";
 import SectionHeader from "../ui/sectionHeader";
 import DataCell from "../ui/cell/dataCell";
