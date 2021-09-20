@@ -1,3 +1,33 @@
+# Libraries
+
+- React
+- Node-sass for styling components
+- Apollo-client for request graphql api
+- CLSX for mix classes dinamically
+- React-router to define routes
+- React-responsive for easier manage of responsive screens
+
+# Assumptions
+
+### Data
+
+- Graphql api is responding a `null` for many `human` cases so I'm considering null as `human specie`
+
+### Text style
+
+- I'm using the color of design system instead the rgba has discrepances with color at design system and figma info. For example for `h2 low empahisis` rgba color gived is a `black` with `0.3 of opacity`, but color gived from figma matches
+  to `Text/Light` so I'm going to use that `Text/Light` to respect the desing system colors
+- I could not find `SF Pro Display` font so I'm using default react font
+
+### Components
+
+- In DataCell component in design system I'm assuming the text `blue` is an `h2-default` text due to it's characteristics and because figma is not giving the correct parent as `Eye color` field does
+- I'm assuming that Vehicules rows are `DataCells` without the bold text
+
+### Responsive
+
+- I'm assuming `420px` as minimum screen size to change to mobil desing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
