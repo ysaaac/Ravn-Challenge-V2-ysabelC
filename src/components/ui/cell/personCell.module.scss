@@ -1,0 +1,25 @@
+.PersonCellContainer {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.PersonLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.TextContainer {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.KeyArrowContainer {
+
+  & svg {
+    margin-right: 22px;
+    width: 13px;
+    height: 13px;
+  }
+}
