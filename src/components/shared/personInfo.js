@@ -4,7 +4,7 @@ import { gql, useQuery } from "@apollo/client";
 import SectionHeader from "../ui/sectionHeader";
 import DataCell from "../ui/cell/dataCell";
 
-function PersonVehicles(vehicles) {
+function PersonVehicles({vehicles}) {
     if (vehicles.length > 0) {
         return (
             vehicles.map(({ name }, index) =>
