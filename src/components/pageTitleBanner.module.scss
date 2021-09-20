@@ -1,0 +1,36 @@
+.TopBanner {
+  background-color: var(--ravn-black);
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 33px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0125em;
+  height: 52px;
+
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.TopBannerFixAligmentForMobile {
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.TopBannerFixAligmentForMobile {
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.TopBannerForMobile {
+  position: relative;
+
+  & svg {
+    position: absolute;
+    left: 20px;
+  }
+}
