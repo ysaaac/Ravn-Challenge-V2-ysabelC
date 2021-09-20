@@ -1,0 +1,41 @@
+$h2-size: 17px;
+$p1-size: 14px;
+
+%H2 {
+  font-size: $h2-size;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.0125em;
+}
+
+%P1 {
+  font-size: $p1-size;
+  line-height: 17px;
+  font-weight: normal;
+  letter-spacing: 0.0125em;
+}
+
+.H2Default {
+  @extend %H2;
+  color: var(--text-dark);
+}
+
+.H2LowEmphasis {
+  @extend %H2;
+  color: var(--text-light);
+}
+
+.H2HighEmphasis {
+  @extend %H2;
+  color: var(--text-emphasis);
+}
+
+.P1Default {
+  @extend %P1;
+  color: var(--text-dark);
+}
+
+.P1LowEmphasis {
+  @extend %P1;
+  color: var(--text-light);
+}
